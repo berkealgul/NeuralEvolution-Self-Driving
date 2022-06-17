@@ -21,7 +21,7 @@ There are several example parkours in "/parkours" folder. In order to use them, 
 
 Similarly you can use pretrained model in "/train models" directory, just rename it to "bestcar.json"
 
-#### Main simulation
+#### Map Generation Tool
 
 Aside of already generated maps you can also create and edit your own custom maps. In order to do that you can run "MapTools/MapMain.py" file. 
 With that editor you can place walls, determine start/finish point and adding checkpoints. The map is going to saved when you exit the application
