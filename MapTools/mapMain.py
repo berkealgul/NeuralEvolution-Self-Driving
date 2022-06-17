@@ -1,5 +1,5 @@
-from MapTools.parkour import Parkour
-from MapTools.parkour import Wall
+from parkour import Parkour
+from parkour import Wall
 import pygame
 import sys
 import json
@@ -13,7 +13,7 @@ h = 650
 firstClickPos = None
 secondClickPos = None
 
-chainMode = False
+chainMode = True
 
 Map = Parkour(w, h)
 screen = pygame.display.set_mode((w, h))
@@ -135,6 +135,6 @@ Map = create_map_from_json()
 while 1:
     pygame_event_handle()
     render()
-    pygame.display.set_caption('sol/sağ tık: duvar ekle/çıkar, '
-                               'orta tuş: doğma noktasını ayarla, c: zincir modu, tab: işlem iptali   Zincir mod: '
-                               + str(chainMode)+ ' a tuşu ile kontrol noktası ekler (silinmezler ve sırayla koyunuz)')
+    pygame.display.set_caption('LM/RM: add/remove walll, '
+                               'Middle M.: set starting point | c: chain mode | tab: cancel operation | Chain Mode: '
+                               + str(chainMode)+ ' a: add checkpoint')
