@@ -25,7 +25,7 @@ Similarly you can use pretrained model in "/train models" directory, just rename
 
 #### Map Generation Tool
 
-Aside of already generated maps you can also create and edit your own custom maps. In order to do that you can run "MapTools/MapMain.py" file. 
+Aside of already generated maps you can also create and edit your own custom maps. In order to do that you can run "MapTools/mapMain.py" file. 
 With that editor you can place walls, determine start/finish point and adding checkpoints. The map is going to saved when you exit the application
 
 Maps you created are saved in "/mapData.json" file, dont forget to extract that file
