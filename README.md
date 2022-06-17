@@ -8,14 +8,22 @@ As the reward system checkpoints(blue dots) are used
 ### Features
 - Custom neural network
 - Genetic algorithm implementations
-- Parkour editor
+- Map editor tool
 
 ### How to use
+
+#### Main simulation
 You can run "main.py" to launch the simulation. 
 
 The script uses "/mapData.json" for getting map information and "/bestcar.json" for getting and saving model parameters
 
-There are several example parkours in "/parkours" folder. In order to use them, you can carry the desider json file to project directory and rename the file to "mapData.json" In addition you can also create your own maps
+There are several example parkours in "/parkours" folder. In order to use them, you can carry the desider json file to project directory and rename the file to "mapData.json"
 
 Similarly you can use pretrained model in "/train models" directory, just rename it to "bestcar.json"
 
+#### Main simulation
+
+Aside of already generated maps you can also create your own custom maps. In order to do that you can run "MapTools/MapMain.py" file. 
+With that editor you can place walls, determine start/finish point and adding checkpoints.
+
+Maps you created are saved in "MapTools/mapData.json" file, dont forget to extract that
