@@ -13,8 +13,9 @@ As the reward system checkpoints(blue dots) are used
 ### How to use
 You can run "main.py" to launch the simulation. 
 
-The script uses /mapData.json for getting map information and /bestcar.json for getting and saving model parameters
+The script uses "/mapData.json" for getting map information and "/bestcar.json" for getting and saving model parameters
 
-There are several example parkours in "/parkours" folder ın order to use them carry the desider json file to project directory and rename the file to "mapData.json"
+There are several example parkours in "/parkours" folder. In order to use them, you can carry the desider json file to project directory and rename the file to "mapData.json" In addition you can also create your own maps
+
 Similarly you can use pretrained model in "/train models" directory, just rename it to "bestcar.json"
 
