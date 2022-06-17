@@ -1,5 +1,7 @@
 ## NeuralEvolution-Self-Driving
 
+Thıs repository is documented version of my old project I did in 2019 which can be found here
+
 This project is about to implementation of deep neuroevolution algorithm and driving autonomous agents on different types of parkours
 Agents have laserscan sensors that casts rays around its surrounding and get distance mesaruments. These distance values and agents velocity and orientation information is given to the network.
 As an output we get acceleration and steering changes that agents need to do
