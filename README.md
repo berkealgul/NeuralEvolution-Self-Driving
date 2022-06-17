@@ -15,3 +15,6 @@ You can run "main.py" to launch the simulation.
 
 The script uses /mapData.json for getting map information and /bestcar.json for getting and saving model parameters
 
+There are several example parkours in "/parkours" folder ın order to use them carry the desider json file to project directory and rename the file to "mapData.json"
+Similarly you can use pretrained model in "/train models" directory, just rename it to "bestcar.json"
+
