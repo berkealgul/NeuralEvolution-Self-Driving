@@ -13,3 +13,5 @@ As the reward system checkpoints(blue dots) are used
 ### How to use
 You can run "main.py" to launch the simulation. 
 
+The script uses /mapData.json for getting map information and /bestcar.json for getting and saving model parameters
+
