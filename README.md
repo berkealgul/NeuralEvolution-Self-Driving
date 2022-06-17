@@ -30,4 +30,4 @@ Maps you created are saved in "/mapData.json" file, dont forget to extract that 
 
 If you want to create an empty map from scratch you can replace "/mapData.json" file with "MapTools/emptyMap.json"
 
-<b>Note</b> : checkpoint cant be deleted and you need to place them in order from start to finish of the parkour
+<b>Note</b> : Checkpoints cant be deleted and you need to place them in order from start to finish of the parkour
