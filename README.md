@@ -9,6 +9,8 @@ As the reward system checkpoints(blue dots) are used
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/iCH4GV00-2k/0.jpg)](https://www.youtube.com/watch?v=iCH4GV00-2k "Click to youtube")
 
+<img src="/doc/sim.gif" width="500" height="500"/>
+
 ### Features
 - Custom neural network
 - Genetic algorithm implementations
