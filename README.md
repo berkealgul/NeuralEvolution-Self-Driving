@@ -7,6 +7,8 @@ Agents have laserscan sensors that casts rays around its surrounding and get dis
 As an output we get acceleration and steering changes that agents need to do
 As the reward system checkpoints(blue dots) are used
 
+https://user-images.githubusercontent.com/47500887/174581715-0645326c-4edc-4428-b96b-edb027703353.mp4
+
 ### Features
 - Custom neural network
 - Genetic algorithm implementations
