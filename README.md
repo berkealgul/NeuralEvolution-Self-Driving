@@ -7,9 +7,11 @@ Agents have laserscan sensors that casts rays around its surrounding and get dis
 As an output we get acceleration and steering changes that agents need to do
 As the reward system checkpoints(blue dots) are used
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/iCH4GV00-2k/0.jpg)](https://www.youtube.com/watch?v=iCH4GV00-2k "Click to youtube")
+<!--
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/iCH4GV00-2k/0.jpg)](https://www.youtube.com/watch?v=iCH4GV00-2k "Click to youtube") 
+-->
 
-<img src="/doc/sim.gif" width="500" height="500"/>
+<img src="https://github.com/berkealgul/NeuralEvolution-Self-Driving/blob/main/sim.gif" width="600" height="324"/>
 
 ### Features
 - Custom neural network
