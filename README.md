@@ -1,8 +1,7 @@
 ## NeuralEvolution-Self-Driving
 
 Thıs repository is documented and cleaned version of my old project I did back in 2019 which can be found [here](https://github.com/berkealgul/DeepLearning-stuff/tree/master/self-driving)
-
-This repo is a toy project to learn about neural networks and evolutionary algorithms
+and it is a toy project for me to learn about neural networks and evolutionary algorithms
 
 The Project is about the implementation of deep neuralevolution algorithm and driving autonomous agents on different types of parkours.
 Agents have laserscan sensors that casts rays around its surrounding and get distance mesaruments. These distance values and agents velocity and orientation information is given to the network.
