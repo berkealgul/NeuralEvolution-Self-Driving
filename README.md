@@ -15,14 +15,17 @@ As the reward system checkpoints(blue dots) are used
 <img src="https://github.com/berkealgul/NeuralEvolution-Self-Driving/blob/main/sim.gif" width="600" height="324"/>
 
 ### Features
-- Custom neural network
+- neural networks and matrix calculations from scratch
 - Genetic algorithm implementations
-- Map editor tool
+- Map generation tool
 
 ### How to use
 
 #### Main simulation
-You can run "main.py" to launch the simulation. 
+You can run  the simulation with. 
+```bash
+python3 main.py
+```
 
 The script uses "/mapData.json" for getting map information and "/bestcar.json" for getting and saving model parameters
 
@@ -32,7 +35,12 @@ Similarly you can use pretrained model in "/train models" directory, just rename
 
 #### Map Generation Tool
 
-Aside of already generated maps you can also create and edit your own custom maps. In order to do that you can run "MapTools/mapMain.py" file. 
+Aside of already generated maps you can also create and edit your own custom maps to train/test your models.
+
+To run the map generation tool
+```bash
+python3 MapTools/mapMain.py
+```
 With that editor you can place walls, determine start/finish point and adding checkpoints. The map is going to saved when you exit the application
 
 Maps you created are saved in "/mapData.json" file, dont forget to extract that file
