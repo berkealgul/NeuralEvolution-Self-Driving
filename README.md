@@ -15,7 +15,7 @@ As the reward system checkpoints(blue dots) are used
 <img src="https://github.com/berkealgul/NeuralEvolution-Self-Driving/blob/main/sim.gif" width="600" height="324"/>
 
 ### Features
-- neural networks and matrix calculations from scratch
+- Neural networks and matrix calculations from scratch
 - Genetic algorithm implementations
 - Custom simulation environment
 - Map generation tool for creating unique parkours
