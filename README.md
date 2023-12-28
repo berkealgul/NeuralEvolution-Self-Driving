@@ -17,7 +17,8 @@ As the reward system checkpoints(blue dots) are used
 ### Features
 - neural networks and matrix calculations from scratch
 - Genetic algorithm implementations
-- Map generation tool
+- Custom simulation environment
+- Map generation tool for creating unique parkours
 
 ### How to use
 
